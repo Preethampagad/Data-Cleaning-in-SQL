@@ -209,10 +209,3 @@ DROP COLUMN OwnerName
 
 SELECT *
 FROM sqlprojects.dbo.nashvillehousing
-
---counting number of each parcel id (for practice)
-SELECT ParcelID, COUNT(ParcelID) as count_parcelid
-FROM sqlprojects.dbo.nashvillehousing
-GROUP BY ParcelID
-ORDER BY count_parcelid desc
-
